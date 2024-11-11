@@ -43,7 +43,7 @@ try:
     config = importlib.import_module('config')
 except Exception as e:
     print(e)
-    print('Please make [config.py] and put it with twitchTransFN')
+    print('Please make [config.py] and put it with twitchChatTranslator')
     input() # stop for error!!
 
 ###################################
